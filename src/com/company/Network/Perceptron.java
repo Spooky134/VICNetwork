@@ -55,17 +55,17 @@ public class Perceptron {
         }
         int[] arr = {1,-1};
         //1 сектор
-        for(int i=0; i<225; i++){
-            connections[i][rnd.nextInt(450-255-1)+225] = arr[rnd.nextInt(2)];
-        }
+//        for(int i=0; i<225; i++){
+//            connections[i][rnd.nextInt(450-255-1)+225] = arr[rnd.nextInt(2)];
+//        }
         //2 сектор
         for(int i=225; i<1000; i++){
             connections[i][rnd.nextInt(450-1)] = arr[rnd.nextInt(2)];
         }
         //3 сектор
-        for(int i=1000; i<1225; i++){
-            connections[i][rnd.nextInt(225-1)] = arr[rnd.nextInt(2)];
-        }
+//        for(int i=1000; i<1225; i++){
+//            connections[i][rnd.nextInt(225-1)] = arr[rnd.nextInt(2)];
+//        }
         //диагональ 1 сектор
         int j = 0;
         for(int i=225-1; i>-1; i--){
